@@ -1,0 +1,6 @@
+server.port: 0
+
+eureka:
+  instance:
+    metadataMap:
+      instanceId: foo${random.long}
