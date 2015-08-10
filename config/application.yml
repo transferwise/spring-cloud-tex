@@ -10,3 +10,5 @@ transferwise:
   api:
     datetime:
       format: yyyy-MM-dd HH:mm:ss
+    location:
+      quote: http://localhost:12346/quote/v1
