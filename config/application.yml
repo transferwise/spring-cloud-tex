@@ -11,4 +11,12 @@ transferwise:
     datetime:
       format: yyyy-MM-dd HH:mm:ss
     location:
+      webapp: http://localhost:8080
+      webappSsl: https://localhost:8443
       quote: http://localhost:12346/quote/v1
+      transferrequest: http://localhost:12347/v1/transfer-requests
+    transferrequest:
+      max:
+        count:
+          default: 2
+          business: 3
