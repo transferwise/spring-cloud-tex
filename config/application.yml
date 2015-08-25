@@ -9,6 +9,8 @@ eureka:
 transferwise:
   api:
     datetime:
-      format: yyyy-MM-dd HH:mm:ss
+      format: yyyy-MM-ddTHH:mm:ss
     location:
       quote: http://localhost:12346/quote/v1
+      transferrequest: http://localhost:12347/quote/v1
+      webapp: http://localhost:8443
