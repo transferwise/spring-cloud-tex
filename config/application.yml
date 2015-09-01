@@ -9,7 +9,7 @@ eureka:
 transferwise:
   api:
     datetime:
-      format: yyyy-MM-dd HH:mm:ss
+      format: yyyy-MM-ddTHH:mm:ss
     location:
       webapp: http://localhost:8080
       webappSsl: https://localhost:8443
