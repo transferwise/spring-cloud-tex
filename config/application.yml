@@ -5,12 +5,3 @@ eureka:
     initialInstanceInfoReplicationIntervalSeconds: 1
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-
-transferwise:
-  api:
-    datetime:
-      format: yyyy-MM-ddTHH:mm:ss
-    location:
-      quote: http://localhost:12346/quote/v1
-      transferrequest: http://localhost:12347/quote/v1
-      webapp: http://localhost:8443
